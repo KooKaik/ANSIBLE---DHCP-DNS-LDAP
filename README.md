@@ -6,7 +6,7 @@ Pour la mise en place de nos services, il est necessaire d'avoir:
 - 3 machines virtuelles avec une adresse IP fixe de configurer pour chacune d'entres elles.
 - L'outil Ansible doit être installé afin de lancer le déploiement de nos services.
 
-## Adapter l'infrastrcture
+## Adapter l'infrastructure
 
 Avant de lancer le déploiement, il faut s'assurer de plusieurs choses:
 1. Vérifier que les différentes informations dans le **ansible.cfg** sont correctes (emplacement de la clé SSH).
