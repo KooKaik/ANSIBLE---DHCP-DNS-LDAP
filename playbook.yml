@@ -1,0 +1,22 @@
+---
+
+- name: Installation du Serveur DNS
+  remote_user: admuser
+  become: true
+  hosts: dns
+  roles:
+  - dns
+
+- name: Installation du Serveur DHCP
+  remote_user: admuser
+  become: true
+  hosts: dhcp
+  roles:
+  - dhcp
+
+- name: Installation du Serveur LDAP
+  remote_user: admuser
+  become: true
+  hosts: ldap
+  roles:
+  - ldap
