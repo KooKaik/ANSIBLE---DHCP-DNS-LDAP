@@ -3,15 +3,15 @@
 ## Prérequis
 
 Pour la mise en place de nos services, il est necessaire d'avoir:
-- 3 machines virtuelles avec une adresse IP de configurer pour chaque
-- L'outil Ansible d'installé pour lancer le déploiement
+- 3 machines virtuelles avec une adresse IP fixe de configurer pour chacune d'entres elles.
+- L'outil Ansible d'installé afin lancer le déploiement de nos services.
 
 ## Adapter l'infrastrcture
 
 Avant de lancer le déploiement, il faut s'assurer de plusieurs choses.
-1. Vérifier que les différentes informations dans le ansible.cfg sont correctes (emplacement de la clé SSH).
-2. Vérifier que les adresses IP dans inventory.ini sont bien correctes pour notre infrastrcture.
-3. Vérifier dans playbook.yml que remote_user soit bien identique à l'utilisateur avec les privilèges de chaques machines.
+1. Vérifier que les différentes informations dans le **ansible.cfg** sont correctes (emplacement de la clé SSH).
+2. Vérifier que les adresses IP dans **inventory.ini** sont bien correctes pour notre infrastructure.
+3. Vérifier dans **playbook.yml** que remote_user soit bien identique à l'utilisateur avec les privilèges de chaques machines.
 
 ## Lancement du playbook
 
